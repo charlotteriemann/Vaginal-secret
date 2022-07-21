@@ -1,0 +1,376 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 65vw;
+}
+
+.Überschrift {
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    font-feature-settings: 'kern';
+    /* turns on kerning */
+    text-rendering: optimizeLegibility;
+    /* emphasise on legibility when rendering, turns on ligatures and kerning */
+    -webkit-font-smoothing: antialiased;
+    /* apply font anti-aliasing for Webkit on OSX */
+    -moz-osx-font-smoothing: grayscale;
+    /* apply font anti-aliasing for Firefox on OSX */
+
+
+}
+
+
+
+.Text>p {
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+
+    margin-left: 210px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+
+
+    font-feature-settings: 'kern';
+    /* turns on kerning */
+    text-rendering: optimizeLegibility;
+    /* emphasise on legibility when rendering, turns on ligatures and kerning */
+    -webkit-font-smoothing: antialiased;
+    /* apply font anti-aliasing for Webkit on OSX */
+    -moz-osx-font-smoothing: grayscale;
+    /* apply font anti-aliasing for Firefox on OSX */
+
+}
+
+
+.Text>p>.accordion {
+    background-color: white;
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+
+}
+
+
+.Text>p>.panel {
+
+    background-color: rgb(0, 255, 0);
+    width: 60vw;
+    height: 100vw;
+    display: none;
+    overflow: hidden;
+    top: 75px;
+    right: 0;
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    padding: 10px;
+}
+
+
+.Link>a>p {
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+
+    margin-left: 210px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+
+
+    font-feature-settings: 'kern';
+    /* turns on kerning */
+    text-rendering: optimizeLegibility;
+    /* emphasise on legibility when rendering, turns on ligatures and kerning */
+    -webkit-font-smoothing: antialiased;
+    /* apply font anti-aliasing for Webkit on OSX */
+    -moz-osx-font-smoothing: grayscale;
+    /* apply font anti-aliasing for Firefox on OSX */
+
+}
+
+.accordion-1 {
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    padding-left: 5px;
+    width: 175px;
+    height: 25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    right: 0;
+  
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+  
+  
+  }
+  
+  .panel-1 {
+  
+    background-color: rgb(0, 255, 0);
+    width: 45vw;
+    height: 100vw;
+    display: none;
+    overflow: scroll;
+    position: fixed;
+    top: 25px;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20vw;
+  
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+  }
+  
+  .accordion-2 {
+    background-color: rgb(255, 70, 0);
+    color: black;
+    cursor: pointer;
+    padding-left: 5px;
+    width: 175px;
+    height: 25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: fixed;
+    top: 25px;
+    right: 0;
+  
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+  
+  }
+  
+  .panel-2 {
+  
+    background-color: rgb(255, 70, 0);
+    width: 65vw;
+    height: 100vw;
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .accordion-3 {
+    background-color: rgb(80, 255, 255);
+    color: black;
+    cursor: pointer;
+    padding-left: 5px;
+    width: 175px;
+    height: 25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+  
+  }
+  
+  
+  .panel-3 {
+  
+    background-color: rgb(80, 255, 255);
+    width: 45vw;
+    height: 100vw;
+    display: none;
+    overflow: scroll;
+    position: fixed;
+    top: 75px;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20vw;
+  
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+  }
+  
+  .accordion-4>a {
+    background-color: rgb(105, 90, 159);
+    color: black;
+    cursor: pointer;
+    padding-left: 0px;
+    width: 150px;
+    height: 22px;
+    text-align: left;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 3px;
+    padding-left: 5px;
+    font-family: 'MessinaSans';
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  h1{
+    font-family: 'MessinaSans';
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+  
+    margin-top: 0px;
+    left: 10px;
+  
+  
+    font-feature-settings: 'kern';
+    /* turns on kerning */
+    text-rendering: optimizeLegibility;
+    /* emphasise on legibility when rendering, turns on ligatures and kerning */
+    -webkit-font-smoothing: antialiased;
+    /* apply font anti-aliasing for Webkit on OSX */
+    -moz-osx-font-smoothing: grayscale;
+    /* apply font anti-aliasing for Firefox on OSX */
+  }
+  
+  p{
+    font-family: 'MessinaSans';
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.15;
+  
+      
+      top: 40px;
+      left: 10px;
+      width: 45vw;
+  
+      font-feature-settings: 'kern';
+      /* turns on kerning */
+      text-rendering: optimizeLegibility;
+      /* emphasise on legibility when rendering, turns on ligatures and kerning */
+      -webkit-font-smoothing: antialiased;
+      /* apply font anti-aliasing for Webkit on OSX */
+      -moz-osx-font-smoothing: grayscale;
+      /* apply font anti-aliasing for Firefox on OSX */
+  
+  }
+  
+  h2{
+    font-family: 'MessinaSans';
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.15;
+  
+      
+      top: 40px;
+      left: 10px;
+      width: 40vw;
+  
+      font-feature-settings: 'kern';
+      /* turns on kerning */
+      text-rendering: optimizeLegibility;
+      /* emphasise on legibility when rendering, turns on ligatures and kerning */
+      -webkit-font-smoothing: antialiased;
+      /* apply font anti-aliasing for Webkit on OSX */
+      -moz-osx-font-smoothing: grayscale;
+      /* apply font anti-aliasing for Firefox on OSX */
+  
+  }
+  
+  
+  
+
+
+
+
+  
+  
+
+  
